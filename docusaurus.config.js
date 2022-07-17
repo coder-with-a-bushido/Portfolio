@@ -27,6 +27,8 @@ const config = {
     locales: ["en"],
   },
 
+  clientModules: [require.resolve("./src/css/custom.css")],
+
   presets: [
     [
       "classic",
@@ -44,9 +46,9 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/coder-with-a-bushido/portfolio",
         },
-        theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
+        // theme: {
+        //   customCss: require.resolve("./src/css/custom.css"),
+        // },
       }),
     ],
   ],
@@ -56,6 +58,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: "dark",
+        disableSwitch: true,
       },
       navbar: {
         title: "My Site",
@@ -128,6 +131,23 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  plugins: [
+    function tailwindPlugin(context, options) {
+      return {
+        name: "tailwind-plugin",
+        configurePostCss(postcssOptions) {
+          postcssOptions.plugins = [
+            require("postcss-import"),
+            require("tailwindcss/nesting"),
+            require("tailwindcss"),
+            require("autoprefixer"),
+          ];
+          return postcssOptions;
+        },
+      };
+    },
+  ],
 };
 
 module.exports = config;
