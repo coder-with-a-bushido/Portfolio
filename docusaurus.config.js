@@ -61,7 +61,6 @@ const config = {
         disableSwitch: true,
       },
       navbar: {
-        title: "My Site",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -124,7 +123,6 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} "Was there in the template", Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
