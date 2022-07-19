@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Adding text selection action in Flutter for android","permalink":"/blog/action-process-text-flutter"}]}')}}]);

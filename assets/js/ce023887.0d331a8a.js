@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[261],{9335:e=>{e.exports=JSON.parse('{"label":"flutter-web","permalink":"/blog/tags/flutter-web","allTagsPath":"/blog/tags","count":1}')}}]);

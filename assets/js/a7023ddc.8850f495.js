@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[713],{3457:t=>{t.exports=JSON.parse('[{"label":"action_process_text","permalink":"/blog/tags/action-process-text","count":1},{"label":"flutter","permalink":"/blog/tags/flutter","count":1},{"label":"android","permalink":"/blog/tags/android","count":1}]')}}]);

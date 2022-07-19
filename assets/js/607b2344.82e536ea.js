@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[116],{5727:a=>{a.exports=JSON.parse('{"label":"gh-pages","permalink":"/blog/tags/gh-pages","allTagsPath":"/blog/tags","count":1}')}}]);
