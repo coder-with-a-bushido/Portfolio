@@ -2,7 +2,14 @@
   display: flex;
   align-items: center;
   padding: 2rem 0;
+  height: 500px;
   width: 100%;
+}
+
+.container{
+  align:center;
+  height: 600px;
+  width: 390px;
 }
 
 .featureSvg {
