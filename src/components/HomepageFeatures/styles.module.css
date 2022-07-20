@@ -2,13 +2,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  height: 100vh;
+  height: auto;
   padding: 2rem 0;
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+}
+
 .resume {
-  width: 95%;
-  max-width: 680px;
-  height: 95%;
+  max-inline-size: 90%;
+  block-size: auto;
+  aspect-ratio: 707/1000;
+  object-position: top center;
 }
