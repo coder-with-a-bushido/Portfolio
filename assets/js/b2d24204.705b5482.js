@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[343],{1039:(e,t,l)=>{l.r(t),l.d(t,{default:()=>i});var u=l(7294);function i(){return u.useEffect((()=>{window.location.replace("https://bushi.app.100ms.live/meeting/udq-mzg-zxg")}),[]),u.createElement("div",null)}}}]);

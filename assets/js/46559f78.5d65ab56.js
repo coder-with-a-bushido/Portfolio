@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[423],{1226:(e,t,l)=>{l.r(t),l.d(t,{default:()=>n});var i=l(7294);function n(){return i.useEffect((()=>{window.location.replace("https://bushi.app.100ms.live/meeting/sxf-arp-khy")}),[]),i.createElement("div",null)}}}]);
